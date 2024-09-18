@@ -1003,6 +1003,9 @@ a.button-yellow:active {
   -o-object-fit: cover;
   object-fit: cover
 }
+.main-projects--about .swiper-slide__wrapper {
+  padding-bottom: 100%
+}
 .our-services__container {
   padding-top: 100px;
   padding-bottom: 120px
@@ -1854,7 +1857,7 @@ a.button:hover {
 }
 .contacts-main {
   background: url(../img/bg-contacts.jpg) 0 0/cover no-repeat;
-  min-height: initial
+  min-height: initial!important
 }
 .contacts-main .main__description {
   font-weight: 400;
