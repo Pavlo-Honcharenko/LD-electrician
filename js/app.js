@@ -4595,7 +4595,7 @@
         });
     }
     function initSliders() {
-        if (document.querySelector(".swiperr")) new Swiper(".swiperr", {
+        if (document.querySelector(".blockName__slider")) new Swiper(".blockName__slider", {
             modules: [ Navigation ],
             observer: true,
             observeParents: true,
@@ -4714,6 +4714,7 @@
             centeredSlides: true,
             loop: false,
             initialSlide: 2,
+            autoHeight: true,
             navigation: {
                 prevEl: ".swiper-button-prev",
                 nextEl: ".swiper-button-next"
